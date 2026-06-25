@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#060912" />
+
+  <title>Moise Godinez · Full Stack Developer</title>
+  <meta name="description" content="Moise Godinez Venegas — Desarrollador Full Stack. Construyo software escalable y experiencias web memorables con Java, .NET, Angular y la nube." />
+  <meta name="author" content="Moise Godinez Venegas" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Moise Godinez · Full Stack Developer" />
+  <meta property="og:description" content="Construyo software escalable y experiencias web memorables. Java · .NET · Angular · Cloud." />
+  <meta property="og:locale" content="es_ES" />
+
+  <!-- Favicon (SVG inline) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%23060912'/><text x='50' y='68' font-size='58' font-family='Arial' font-weight='bold' fill='%234f7cff' text-anchor='middle'>M</text></svg>" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__inner">
+      <div class="preloader__mark">MG</div>
+      <div class="preloader__bar"><span></span></div>
+      <div class="preloader__text">Cargando experiencia<span class="dots"></span></div>
+    </div>
+  </div>
+
+  <!-- ============ CUSTOM CURSOR ============ -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+  <!-- ============ SCROLL PROGRESS ============ -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ AURORA BACKGROUND ============ -->
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora__blob aurora__blob--1"></span>
+    <span class="aurora__blob aurora__blob--2"></span>
+    <span class="aurora__blob aurora__blob--3"></span>
+    <div class="grid-overlay"></div>
+    <div class="noise"></div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__wrap">
+      <a href="#hero" class="nav__brand" data-cursor="link">
+        <span class="nav__logo">MG</span>
+        <span class="nav__name">Moise<strong>.</strong></span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Navegación principal">
+        <a href="#about" class="nav__link" data-cursor="link">Perfil</a>
+        <a href="#stack" class="nav__link" data-cursor="link">Stack</a>
+        <a href="#services" class="nav__link" data-cursor="link">Servicios</a>
+        <a href="#work" class="nav__link" data-cursor="link">Proyectos</a>
+        <a href="#process" class="nav__link" data-cursor="link">Proceso</a>
+        <a href="#contact" class="nav__cta" data-cursor="link">Hablemos</a>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal" data-reveal>
+            <span class="pulse-dot"></span> Disponible para nuevos proyectos
+          </p>
+
+          <h1 class="hero__title">
+            <span class="line reveal" data-reveal>Construyo</span>
+            <span class="line reveal" data-reveal data-delay="80">
+              <span class="gradient-text">software</span> que
+            </span>
+            <span class="line reveal" data-reveal data-delay="160">inspira confianza.</span>
+          </h1>
+
+          <p class="hero__lead reveal" data-reveal data-delay="240">
+            Soy <strong>Moise Godinez</strong>, desarrollador Full Stack.
+            Diseño arquitecturas sólidas y experiencias web que se sienten
+            <em>rápidas, claras y memorables</em> — del primer commit a producción.
+          </p>
+
+          <div class="hero__actions reveal" data-reveal data-delay="320">
+            <a href="#work" class="btn btn--primary magnetic" data-cursor="link">
+              <span>Ver proyectos</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#contact" class="btn btn--ghost magnetic" data-cursor="link">
+              <span>Trabajemos juntos</span>
+            </a>
+          </div>
+
+          <div class="hero__meta reveal" data-reveal data-delay="400">
+            <div class="hero__meta-item">
+              <strong data-count="16" data-suffix="+">0</strong>
+              <span>Tecnologías</span>
+            </div>
+            <div class="hero__meta-item">
+              <strong>Full</strong>
+              <span>Stack end-to-end</span>
+            </div>
+            <div class="hero__meta-item">
+              <strong>Cloud</strong>
+              <span>Azure · Linux</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating code card -->
+        <div class="hero__visual reveal" data-reveal data-delay="200">
+          <div class="codecard tilt" data-tilt>
+            <div class="codecard__bar">
+              <span></span><span></span><span></span>
+              <p>developer.ts</p>
+            </div>
+            <pre class="codecard__body"><code><span class="c-key">const</span> <span class="c-var">moise</span> = {
+  <span class="c-prop">rol</span>: <span class="c-str">"Full Stack Developer"</span>,
+  <span class="c-prop">stack</span>: [<span class="c-str">"Java"</span>, <span class="c-str">".NET"</span>, <span class="c-str">"Angular"</span>],
+  <span class="c-prop">enfoque</span>: <span class="c-str">"clean & scalable"</span>,
+  <span class="c-prop">entrega</span>: <span class="c-fn">continua</span>(),
+  <span class="c-prop">construir</span>: () => <span class="c-str">"con criterio ⚡"</span>,
+};</code></pre>
+            <div class="codecard__glow"></div>
+          </div>
+
+          <div class="floating-badge floating-badge--1">{ }</div>
+          <div class="floating-badge floating-badge--2">&lt;/&gt;</div>
+          <div class="floating-badge floating-badge--3">⚡</div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" data-cursor="link" aria-label="Desplázate hacia abajo">
+        <span class="hero__scroll-line"></span>
+        <span class="hero__scroll-text">Scroll</span>
+      </a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Arquitectura limpia</span><i>✦</i>
+        <span>APIs escalables</span><i>✦</i>
+        <span>Experiencias web</span><i>✦</i>
+        <span>Cloud &amp; DevOps</span><i>✦</i>
+        <span>Bases de datos</span><i>✦</i>
+        <span>Entrega continua</span><i>✦</i>
+        <span>Arquitectura limpia</span><i>✦</i>
+        <span>APIs escalables</span><i>✦</i>
+        <span>Experiencias web</span><i>✦</i>
+        <span>Cloud &amp; DevOps</span><i>✦</i>
+        <span>Bases de datos</span><i>✦</i>
+        <span>Entrega continua</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section__head reveal" data-reveal>
+          <span class="section__tag">01 — Perfil</span>
+          <h2 class="section__title">Ingeniería con criterio,<br/><span class="gradient-text">diseño con intención.</span></h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__main reveal" data-reveal>
+            <p class="about__lead">
+              Me muevo con naturalidad entre el back-end, el front-end, las bases de datos
+              y la nube. Mi objetivo no es solo que el software funcione, sino que sea
+              <strong>elegante de operar, fácil de escalar y agradable de evolucionar.</strong>
+            </p>
+            <p>
+              Trabajo con una base fuerte en <strong>Java, .NET y Angular</strong>, sobre
+              entornos Linux y Azure. Valoro la automatización, la observabilidad y las
+              buenas prácticas desde el primer día. Resuelvo bien, documento mejor y dejo
+              bases mantenibles para quien venga después.
+            </p>
+
+            <ul class="about__list">
+              <li data-cursor="link"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Decisiones técnicas justificadas, no modas.</li>
+              <li data-cursor="link"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Interfaces modernas con UX clara.</li>
+              <li data-cursor="link"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Front, back y datos sin fricción.</li>
+              <li data-cursor="link"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5" stroke-linecap="round" stroke-linejoin="round"/></svg> Flujos pensados para producción.</li>
+            </ul>
+          </div>
+
+          <aside class="about__stats">
+            <div class="stat-card reveal" data-reveal data-tilt>
+              <strong data-count="16" data-suffix="+">0</strong>
+              <span>Tecnologías en mi stack</span>
+            </div>
+            <div class="stat-card reveal" data-reveal data-delay="80" data-tilt>
+              <strong data-count="4">0</strong>
+              <span>Áreas: front · back · datos · cloud</span>
+            </div>
+            <div class="stat-card reveal" data-reveal data-delay="160" data-tilt>
+              <strong data-count="100" data-suffix="%">0</strong>
+              <span>Enfoque en código mantenible</span>
+            </div>
+            <div class="stat-card stat-card--accent reveal" data-reveal data-delay="240" data-tilt>
+              <strong>∞</strong>
+              <span>Curiosidad por construir mejor</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STACK ============ -->
+    <section class="section stack" id="stack">
+      <div class="container">
+        <div class="section__head reveal" data-reveal>
+          <span class="section__tag">02 — Stack</span>
+          <h2 class="section__title">Las herramientas que<br/><span class="gradient-text">domino a diario.</span></h2>
+          <p class="section__sub">Un stack completo para llevar una idea desde el modelo de datos hasta la interfaz en producción.</p>
+        </div>
+
+        <div class="stack__grid">
+          <article class="skill-cat reveal" data-reveal data-tilt>
+            <div class="skill-cat__icon">⚙️</div>
+            <h3>Back-end</h3>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">Spring Boot</span>
+              <span class="chip">C#</span>
+              <span class="chip">.NET</span>
+            </div>
+          </article>
+
+          <article class="skill-cat reveal" data-reveal data-delay="80" data-tilt>
+            <div class="skill-cat__icon">🎨</div>
+            <h3>Front-end</h3>
+            <div class="chips">
+              <span class="chip">Angular</span>
+              <span class="chip">TypeScript</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3</span>
+            </div>
+          </article>
+
+          <article class="skill-cat reveal" data-reveal data-delay="160" data-tilt>
+            <div class="skill-cat__icon">🗄️</div>
+            <h3>Bases de datos</h3>
+            <div class="chips">
+              <span class="chip">PostgreSQL</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">SQL Server</span>
+              <span class="chip">MongoDB</span>
+            </div>
+          </article>
+
+          <article class="skill-cat reveal" data-reveal data-delay="240" data-tilt>
+            <div class="skill-cat__icon">☁️</div>
+            <h3>Cloud &amp; DevOps</h3>
+            <div class="chips">
+              <span class="chip">Azure</span>
+              <span class="chip">Linux</span>
+              <span class="chip">Git</span>
+              <span class="chip">CI/CD</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__head reveal" data-reveal>
+          <span class="section__tag">03 — Servicios</span>
+          <h2 class="section__title">Lo que puedo<br/><span class="gradient-text">construir para ti.</span></h2>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal" data-reveal data-tilt>
+            <span class="service-card__num">01</span>
+            <div class="service-card__icon">🏗️</div>
+            <h3>Arquitecturas de negocio</h3>
+            <p>APIs REST, microservicios y sistemas con reglas claras, separación de responsabilidades y crecimiento controlado.</p>
+            <div class="service-card__line"></div>
+          </article>
+
+          <article class="service-card reveal" data-reveal data-delay="80" data-tilt>
+            <span class="service-card__num">02</span>
+            <div class="service-card__icon">✨</div>
+            <h3>Experiencias web sólidas</h3>
+            <p>Interfaces rápidas, responsivas y con una presentación cuidada que hace que el producto se sienta profesional desde el primer uso.</p>
+            <div class="service-card__line"></div>
+          </article>
+
+          <article class="service-card reveal" data-reveal data-delay="160" data-tilt>
+            <span class="service-card__num">03</span>
+            <div class="service-card__icon">🧠</div>
+            <h3>Datos bien pensados</h3>
+            <p>Modelado, consultas optimizadas y persistencia fiable para que la información acompañe al negocio sin volverse un cuello de botella.</p>
+            <div class="service-card__line"></div>
+          </article>
+
+          <article class="service-card reveal" data-reveal data-delay="240" data-tilt>
+            <span class="service-card__num">04</span>
+            <div class="service-card__icon">🚀</div>
+            <h3>Listo para producción</h3>
+            <p>Automatización, despliegue y administración en Linux y Azure con una mentalidad orientada a la entrega continua.</p>
+            <div class="service-card__line"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / PROJECTS ============ -->
+    <section class="section work" id="work">
+      <div class="container">
+        <div class="section__head reveal" data-reveal>
+          <span class="section__tag">04 — Proyectos</span>
+          <h2 class="section__title">Trabajo<br/><span class="gradient-text">destacado.</span></h2>
+          <p class="section__sub">Una selección del tipo de soluciones que construyo. Reemplaza estas tarjetas por tus proyectos reales.</p>
+        </div>
+
+        <div class="work__list">
+          <article class="project reveal" data-reveal data-tilt>
+            <div class="project__media" style="--p1:#4f7cff; --p2:#22d3ee;">
+              <span class="project__index">01</span>
+              <div class="project__mock">
+                <div class="project__mock-bar"></div>
+                <div class="project__mock-row"></div>
+                <div class="project__mock-row short"></div>
+                <div class="project__mock-grid"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project__info">
+              <h3>Plataforma de APIs empresariales</h3>
+              <p>Backend modular en Spring Boot con autenticación, documentación y observabilidad lista para escalar.</p>
+              <div class="chips">
+                <span class="chip">Java</span><span class="chip">Spring Boot</span><span class="chip">PostgreSQL</span><span class="chip">Azure</span>
+              </div>
+              <a href="#contact" class="project__link" data-cursor="link">Ver detalles
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project project--reverse reveal" data-reveal data-tilt>
+            <div class="project__media" style="--p1:#a855f7; --p2:#4f7cff;">
+              <span class="project__index">02</span>
+              <div class="project__mock">
+                <div class="project__mock-bar"></div>
+                <div class="project__mock-chart"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="project__mock-row short"></div>
+              </div>
+            </div>
+            <div class="project__info">
+              <h3>Dashboard analítico en tiempo real</h3>
+              <p>Aplicación Angular con visualizaciones interactivas, datos en vivo y una UX clara para tomar decisiones rápido.</p>
+              <div class="chips">
+                <span class="chip">Angular</span><span class="chip">TypeScript</span><span class="chip">.NET</span><span class="chip">SQL Server</span>
+              </div>
+              <a href="#contact" class="project__link" data-cursor="link">Ver detalles
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="project reveal" data-reveal data-tilt>
+            <div class="project__media" style="--p1:#22d3ee; --p2:#34d399;">
+              <span class="project__index">03</span>
+              <div class="project__mock">
+                <div class="project__mock-bar"></div>
+                <div class="project__mock-row"></div>
+                <div class="project__mock-pills"><i></i><i></i><i></i><i></i></div>
+                <div class="project__mock-row short"></div>
+              </div>
+            </div>
+            <div class="project__info">
+              <h3>Sistema de gestión empresarial</h3>
+              <p>Solución full stack end-to-end: modelo de datos robusto, lógica de negocio clara y despliegue automatizado.</p>
+              <div class="chips">
+                <span class="chip">.NET</span><span class="chip">Angular</span><span class="chip">MongoDB</span><span class="chip">Linux</span>
+              </div>
+              <a href="#contact" class="project__link" data-cursor="link">Ver detalles
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section process" id="process">
+      <div class="container">
+        <div class="section__head reveal" data-reveal>
+          <span class="section__tag">05 — Proceso</span>
+          <h2 class="section__title">Cómo<br/><span class="gradient-text">trabajo.</span></h2>
+        </div>
+
+        <div class="process__timeline">
+          <div class="process__step reveal" data-reveal>
+            <span class="process__dot"></span>
+            <span class="process__num">01</span>
+            <h3>Entender</h3>
+            <p>Escucho el problema real, defino objetivos y acuerdo el alcance antes de escribir una línea de código.</p>
+          </div>
+          <div class="process__step reveal" data-reveal data-delay="80">
+            <span class="process__dot"></span>
+            <span class="process__num">02</span>
+            <h3>Diseñar</h3>
+            <p>Modelo datos, arquitectura e interfaz. Decisiones justificadas y bases pensadas para escalar.</p>
+          </div>
+          <div class="process__step reveal" data-reveal data-delay="160">
+            <span class="process__dot"></span>
+            <span class="process__num">03</span>
+            <h3>Construir</h3>
+            <p>Desarrollo iterativo, código limpio y pruebas. Avances visibles y comunicación constante.</p>
+          </div>
+          <div class="process__step reveal" data-reveal data-delay="240">
+            <span class="process__dot"></span>
+            <span class="process__num">04</span>
+            <h3>Entregar</h3>
+            <p>Despliegue automatizado, documentación y soporte. Producto listo para crecer contigo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__card reveal" data-reveal>
+          <div class="contact__glow"></div>
+          <span class="section__tag">06 — Contacto</span>
+          <h2 class="contact__title">¿Tienes una idea?<br/><span class="gradient-text">Hagámosla real.</span></h2>
+          <p class="contact__sub">
+            Cuéntame qué quieres construir. Respondo rápido por correo o WhatsApp y
+            aterrizamos juntos los siguientes pasos.
+          </p>
+
+          <div class="contact__actions">
+            <a href="mailto:moisesgodinezvenegas17@gmail.com" class="btn btn--primary magnetic" data-cursor="link">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Enviar correo</span>
+            </a>
+            <a href="https://wa.me/524426004391" target="_blank" rel="noopener" class="btn btn--whatsapp magnetic" data-cursor="link">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5h-.6c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.8-.7 2-1.4.3-.7.3-1.3.2-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-2.9-.4-4.2-1.1l-.3-.2-2.9.8.8-2.8-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>
+              <span>WhatsApp</span>
+            </a>
+          </div>
+
+          <p class="contact__mail" data-cursor="link">moisesgodinezvenegas17@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <div class="footer__brand">
+        <span class="nav__logo">MG</span>
+        <p>Moise Godinez Venegas<br/><small>Full Stack Developer</small></p>
+      </div>
+      <p class="footer__quote">"El buen software no solo funciona:<br/>también transmite confianza."</p>
+      <div class="footer__meta">
+        <p>© <span id="year"></span> — Diseñado &amp; desarrollado con criterio.</p>
+        <a href="#hero" class="footer__top" data-cursor="link">Volver arriba ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
