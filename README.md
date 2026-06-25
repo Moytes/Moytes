@@ -16,14 +16,11 @@
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/TU-PERFIL-DE-LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:tu-correo@ejemplo.com">
+  <a href="mailto:moisesgodinezvenegas17@gmail.com">
     <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/TU-USUARIO-DE-GITHUB" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://wa.me/524426004391" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
   </a>
 </div>
 
@@ -60,33 +57,27 @@
 
 ## Stack Principal
 
-### Back-end
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-</p>
-
-### Front-end
-<p align="left">
-  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-
-### Datos y Cloud
-<p align="left">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
+<div align="center">
+  <p>Una cinta continua con las tecnologías que uso con más frecuencia.</p>
+  <marquee behavior="scroll" direction="left" scrollamount="6" loop="infinite">
+    <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+    <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+    <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+    <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+    <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+    <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Azure" />
+    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  </marquee>
+</div>
 
 ---
 
@@ -125,79 +116,24 @@
 
 ---
 
-## Estadísticas
+## Contacto
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/TU-USUARIO-DE-GITHUB">
-          <img src="https://github-readme-stats.vercel.app/api?username=TU-USUARIO-DE-GITHUB&show_icons=true&theme=tokyonight&locale=es&hide_border=true&card_width=450" alt="Estadísticas de GitHub" />
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/TU-USUARIO-DE-GITHUB">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU-USUARIO-DE-GITHUB&layout=compact&theme=tokyonight&locale=es&hide_border=true&card_width=350" alt="Lenguajes más usados" />
-        </a>
-      </td>
-    </tr>
-  </table>
-  <br/>
-  <a href="https://github.com/TU-USUARIO-DE-GITHUB">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=TU-USUARIO-DE-GITHUB&theme=tokyonight&hide_border=true" alt="Racha de GitHub" />
-  </a>
-</div>
-
----
-
-## Proyectos Destacados
-
-<table>
+<table align="center" width="100%" cellpadding="18" cellspacing="0" style="background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 100%); border-radius: 18px; overflow: hidden;">
   <tr>
-    <td width="50%" valign="top">
-      <h3>Proyecto 01</h3>
-      <p>
-        Plataforma back-end o sistema empresarial con enfoque en rendimiento, reglas de negocio y escalabilidad.
+    <td align="center">
+      <h3 style="color: #ffffff; margin: 0;">Hablemos directamente</h3>
+      <p style="color: #dbeafe; margin: 10px 0 18px 0;">
+        Si quieres escribirme por correo o mandarme mensaje por WhatsApp, usa cualquiera de estos accesos.
       </p>
-      <p>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
-        <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" alt="Spring Boot" />
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-      </p>
-      <a href="https://github.com/TU-USUARIO-DE-GITHUB/repositorio-proyecto">Ver código ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Proyecto 02</h3>
-      <p>
-        Aplicación front-end moderna, responsiva y conectada a APIs con experiencia fluida y diseño limpio.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white" alt="Angular" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
-      </p>
-      <a href="https://github.com/TU-USUARIO-DE-GITHUB/repositorio-proyecto">Ver código ↗</a>
+      <a href="mailto:moisesgodinezvenegas17@gmail.com">
+        <img src="https://img.shields.io/badge/Enviar%20Gmail-111827?style=for-the-badge&logo=gmail&logoColor=white" alt="Enviar Gmail" />
+      </a>
+      <a href="https://wa.me/524426004391" target="_blank">
+        <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" />
+      </a>
     </td>
   </tr>
 </table>
-
----
-
-## Contacto
-
-Si quieres colaborar, revisar una arquitectura o construir un producto con mejor base técnica, aquí estoy.
-
-<div align="center">
-  <a href="mailto:tu-correo@ejemplo.com">
-    <img src="https://img.shields.io/badge/Contactar-0F172A?style=for-the-badge&logo=gmail&logoColor=white" alt="Contactar" />
-  </a>
-  <a href="https://www.linkedin.com/in/TU-PERFIL-DE-LINKEDIN" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/TU-USUARIO-DE-GITHUB" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-</div>
 
 <div align="center">
   <br/>
